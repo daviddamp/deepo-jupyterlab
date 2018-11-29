@@ -1,5 +1,5 @@
 FROM ufoym/deepo
-MAINTAINER Cristóbal Carnero Liñán "ccarnerolinan@gmail.com"
+MAINTAINER David D. Albarracín Molina "d.d.albarracinmolina@gmail.com"
 RUN pip install jupyterlab
 RUN mkdir -p /app
 ADD run.sh /app/run
