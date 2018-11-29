@@ -9,7 +9,7 @@ Usage
 ### Basic
 
 ```
-nvidia-docker run -it -p 8888:8888 cristobalcl/deepo:jupyterlab
+nvidia-docker run -it -p 8888:8888 daviddamp/deepo:jupyterlab
 ```
 
 This will run the server with the default password `jupyterlab`.
@@ -32,7 +32,7 @@ mkdir -p datasets
 nvidia-docker run -it -p 8888:8888 \
     --mount type=bind,source="$(pwd)/notebooks"/,target=/notebooks \
     --mount type=bind,source="$(pwd)/datasets"/,target=/datasets \
-    cristobalcl/deepo:jupyterlab \
+    daviddamp/deepo:jupyterlab \
     run "p4ssw0rd"
 ```
 
