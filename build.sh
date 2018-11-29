@@ -2,5 +2,5 @@
 
 set -e
 
-docker build -t cristobalcl/deepo:jupyterlab .
-docker push cristobalcl/deepo
+docker build -t daviddamp/deepo:jupyterlab .
+docker push daviddamp/deepo
